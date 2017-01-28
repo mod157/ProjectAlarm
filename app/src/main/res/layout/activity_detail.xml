@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nammu.sunjae.projectalarm.DetailActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/layout_time">
+
+        <TextView
+            android:text="시간"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:padding="2dp" />
+
+        <TextView
+            android:text="시간을 선택하십시오."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_detail_time"
+            android:padding="2dp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/line"
+        android:layout_height="5dp">
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/layout_days">
+
+        <TextView
+            android:text="요일"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:padding="2dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="월"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_day_detail_mon"
+                android:padding="2dp"
+                android:layout_weight="1" />
+            <TextView
+                android:text="화"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_day_detail_tue"
+                android:layout_weight="1"
+                android:padding="2dp" />
+            <TextView
+                android:text="수"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_day_detail_wednes"
+                android:layout_weight="1"
+                android:padding="2dp" />
+            <TextView
+                android:text="목"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_day_detail_thurs"
+                android:layout_weight="1"
+                android:padding="2dp" />
+            <TextView
+                android:text="금"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_day_detail_fri"
+                android:layout_weight="1"
+                android:padding="2dp" />
+            <TextView
+                android:text="토"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_day_detail_satur"
+                android:layout_weight="1"
+                android:padding="2dp" />
+            <TextView
+                android:text="일"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_day_detail_sun"
+                android:layout_weight="1"
+                android:padding="2dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/line"
+        android:layout_height="5dp">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:text="알람 텍스트"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:paddingLeft="2dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:id="@+id/et_detail_text"
+            android:hint="텍스트를 입력하십시오."
+            android:textSize="12dp"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/line"
+        android:layout_height="5dp">
+    </FrameLayout>
+
+</LinearLayout>

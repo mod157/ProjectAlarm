@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">알람</string>
+    <string name="action_name">추가</string>
+    <string name="days_mon">월요일</string>
+    <string name="days_tue">화요일</string>
+    <string name="days_wed">수요일</string>
+    <string name="days_thur">목요일</string>
+    <string name="days_fri">금요일</string>
+    <string name="days_satur">토요일</string>
+    <string name="days_sun">일요일</string>
+
+    <string name="title_activity_boot_view">BootView</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

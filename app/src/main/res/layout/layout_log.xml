@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:textSize="12sp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.5">
+
+            <CheckBox
+                android:id="@+id/cb_mon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/days_mon"
+                android:textSize="15dp" />
+
+            <CheckBox
+                android:id="@+id/cb_tue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/days_tue"
+                android:textSize="15dp"/>
+
+            <CheckBox
+                android:id="@+id/cb_wed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/days_wed"
+                android:textSize="15dp"/>
+
+            <CheckBox
+                android:id="@+id/cb_thur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/days_thur"
+                android:textSize="15dp"/>
+
+            <CheckBox
+                android:id="@+id/cb_fri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/days_fri"
+                android:textSize="15dp"/>
+
+            <CheckBox
+                android:id="@+id/cb_satur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/days_satur"
+                android:textSize="15dp"/>
+
+            <CheckBox
+                android:id="@+id/cb_sun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/days_sun"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
